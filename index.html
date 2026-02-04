@@ -1,0 +1,198 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Nega — Creator & Digital Marketer</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="nav">
+      <div class="container nav-inner">
+        <div class="logo">Nega</div>
+        <nav class="nav-links">
+          <a href="#work">Work</a>
+          <a href="#pricing">Pricing</a>
+          <a href="#testimonials">Testimonials</a>
+          <a class="btn" href="#contact">Contact</a>
+        </nav>
+      </div>
+    </header>
+
+    <main>
+      <section class="hero">
+        <div class="container hero-inner">
+          <div>
+            <h1>Content that looks expensive — and performs.</h1>
+            <p class="sub">
+              Photo, video, AI transformations, and paid social growth for car brands, apparel, and portraits.
+            </p>
+            <div class="hero-cta">
+              <a class="btn" href="#pricing">View pricing</a>
+              <a class="btn ghost" href="#work">See transformations</a>
+            </div>
+            <div class="pill-row">
+              <span class="pill">AI cinematic edits</span>
+              <span class="pill">Ads + IG growth</span>
+              <span class="pill">Photo + video</span>
+            </div>
+          </div>
+
+          <div class="hero-card">
+            <div class="hero-card-top">
+              <div class="dot"></div>
+              <div class="dot"></div>
+              <div class="dot"></div>
+            </div>
+            <div class="hero-card-body">
+              <p class="mini">Quick intro</p>
+              <p>
+                I help brands turn simple inputs into scroll-stopping visuals — then I help those visuals convert with smart marketing.
+              </p>
+              <p class="mini">Best for</p>
+              <ul>
+                <li>Car dealerships & auto brands</li>
+                <li>Apparel / e-commerce</li>
+                <li>Portrait brands & creators</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="work" class="section">
+        <div class="container">
+          <h2>Before → After transformations</h2>
+          <p class="muted">Replace the placeholders with your real examples. We’ll add a slider next.</p>
+
+          <div class="grid-3">
+            <div class="card">
+              <h3>Cars</h3>
+              <div class="placeholder">Before/After slider here</div>
+              <p class="muted">Show a basic car shot → AI cinematic environment.</p>
+            </div>
+            <div class="card">
+              <h3>Products / Apparel</h3>
+              <div class="placeholder">Before/After slider here</div>
+              <p class="muted">Show product photo → styled scene / ad-ready image.</p>
+            </div>
+            <div class="card">
+              <h3>Portraits</h3>
+              <div class="placeholder">Before/After slider here</div>
+              <p class="muted">White backdrop → low-light cinematic studio portrait.</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="pricing" class="section alt">
+        <div class="container">
+          <h2>Pricing</h2>
+          <p class="muted">Simple now. You can expand this into a huge price sheet page later.</p>
+
+          <div class="grid-3">
+            <div class="card">
+              <h3>Hourly</h3>
+              <p class="price">$___ / hr</p>
+              <ul>
+                <li>Photo / retouch</li>
+                <li>Video edit</li>
+                <li>AI transformation</li>
+              </ul>
+            </div>
+            <div class="card featured">
+              <h3>Packages</h3>
+              <p class="price">$___+</p>
+              <ul>
+                <li>Monthly content bundle</li>
+                <li>Ad creative variants</li>
+                <li>Strategy + delivery</li>
+              </ul>
+            </div>
+            <div class="card">
+              <h3>Growth</h3>
+              <p class="price">$___+</p>
+              <ul>
+                <li>Instagram growth</li>
+                <li>Paid ads setup</li>
+                <li>Creative testing</li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="note">
+            Want the full price sheet? <a href="#contact">Request it</a>.
+          </div>
+        </div>
+      </section>
+
+      <section id="testimonials" class="section">
+        <div class="container">
+          <h2>Testimonials</h2>
+
+          <div class="grid-3">
+            <div class="card">
+              <p class="quote">“Add a real client quote here.”</p>
+              <p class="muted">— Name, Company</p>
+            </div>
+            <div class="card">
+              <p class="quote">“Add a real client quote here.”</p>
+              <p class="muted">— Name, Company</p>
+            </div>
+            <div class="card">
+              <p class="quote">“Add a real client quote here.”</p>
+              <p class="muted">— Name, Company</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="contact" class="section alt">
+        <div class="container">
+          <h2>Contact</h2>
+          <p class="muted">This form is front-end only for now. Next we’ll wire it to a real form service.</p>
+
+          <form class="form" onsubmit="return false;">
+            <div class="grid-2">
+              <label>
+                Name
+                <input type="text" placeholder="Your name" required />
+              </label>
+              <label>
+                Email
+                <input type="email" placeholder="you@brand.com" required />
+              </label>
+            </div>
+
+            <label>
+              What do you need?
+              <select required>
+                <option value="" selected disabled>Select one</option>
+                <option>Car content</option>
+                <option>Apparel/product content</option>
+                <option>Portrait content</option>
+                <option>Ads / growth</option>
+                <option>Other</option>
+              </select>
+            </label>
+
+            <label>
+              Message
+              <textarea rows="5" placeholder="Goals, timeline, links, budget range..."></textarea>
+            </label>
+
+            <button class="btn" type="submit">Send</button>
+          </form>
+        </div>
+      </section>
+
+      <footer class="footer">
+        <div class="container footer-inner">
+          <p class="muted">© <span id="year"></span> Nega. All rights reserved.</p>
+        </div>
+      </footer>
+    </main>
+
+    <script src="script.js"></script>
+  </body>
+</html>
