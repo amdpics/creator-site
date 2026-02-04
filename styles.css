@@ -36,8 +36,20 @@
     justify-content: space-between;
     padding: 14px 0;
   }
-  .logo { font-weight: 700; letter-spacing: 0.5px; }
-  .nav-links { display: flex; gap: 16px; align-items: center; }
+  .logo {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-weight: 700;
+    letter-spacing: 0.5px;
+  }
+  
+  .logo img {
+    height: 28px;
+    width: auto;
+    display: block;
+  }
+    .nav-links { display: flex; gap: 16px; align-items: center; }
   .nav-links a { color: var(--muted); }
   .nav-links a:hover { color: var(--text); }
   
